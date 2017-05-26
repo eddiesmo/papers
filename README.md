@@ -1,5 +1,7 @@
 # About
-Reviews and summaries of computer vision and machine learning papers
+Sometimes I read interesting papers, posts or code repositories.
+1. Reviews and summaries go into the summaries folder
+2. quick thoughts and comments go into the journal folder.
 
 Inspired by: https://github.com/aleju/papers
 
