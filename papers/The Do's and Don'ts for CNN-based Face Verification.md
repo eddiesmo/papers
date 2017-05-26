@@ -53,9 +53,7 @@ hence fewer subjects) than the other. We show that it is
 important to have a wider dataset than a deeper dataset with
 the same number of images.
 
-## Does some amount of label noise help improve
-the performance of deep recognition
-networks?
+## Does some amount of label noise help improve the performance of deep recognition networks?
 >When training any supervised face classification system,
 each image is first associated with a label. Label noise is the
 phenomenon of assigning an incorrect label to some images.
