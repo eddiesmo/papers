@@ -1,4 +1,4 @@
-# Paper
+# Metadata
 * **Title**: The Do’s and Don’ts for CNN-based Face Verification
 * **Authors**: Ankan Bansal Carlos Castillo Rajeev Ranjan Rama Chellappa
 UMIACS - 
