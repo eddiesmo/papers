@@ -8,16 +8,6 @@ University of Maryland, College Park
 # Abstract
 >Convolutional neural networks (CNN) have become the most sought after tools for addressing object recognition problems. Specifically, they have produced state-of-the art results for unconstrained face recognition and verification tasks. While the research community appears to have developed a consensus on the methods of acquiring annotated data, design and training of CNNs, many questions still remain to be answered. In this paper, we explore the following questions that are critical to face recognition research: (i) Can we train on still images and expect the systems to work on videos? (ii) Are deeper datasets better than wider datasets? (iii) Does adding label noise lead to improvement in performance of deep networks? (iv) Is alignment needed for face recognition? We address these questions by training CNNs using CASIA-WebFace, UMDFaces, and a new video dataset and testing on YouTubeFaces, IJBA and a disjoint portion of UMDFaces datasets. Our new data set, which will be made publicly available, has 22,075 videos and 3,735,476 human annotated frames extracted from them.
 
-# How they made the dataset
-- collect youtube videos
-- automated filtering with yolo and landmark detection projects
-- crowd source final filtering (AMT - give 50 face images to turks and ask which don't belong)
-- quality control through sentinels: give turks the same test but with 5 known correct answers, 
-and rank the turks according to how they perform on this ground truth test. 
-If they're good, trust their answers on the real tests.
-- result: 
-    > we have 3,735,476 annotated frames in 22,075 videos. We will
-    publicly release this massive dataset
 # Introduction
 >We make the following main contributions in this paper:
 • We introduce a large dataset of videos of over
@@ -34,6 +24,17 @@ in the performance of deep face recognition
 networks. These practices will also guide future data
 collection efforts.
 
+# How they made the dataset
+- collect youtube videos
+- automated filtering with yolo and landmark detection projects
+- crowd source final filtering (AMT - give 50 face images to turks and ask which don't belong)
+- quality control through sentinels: give turks the same test but with 5 known correct answers, 
+and rank the turks according to how they perform on this ground truth test. 
+If they're good, trust their answers on the real tests.
+- result: 
+    > we have 3,735,476 annotated frames in 22,075 videos. We will
+    publicly release this massive dataset
+
 # Questions and experiments
 ## Do deep recognition networks trained on stills perform well on videos?
 > We study the effects of this difference between
@@ -42,6 +43,7 @@ still images and frames extracted from videos in section
 still images and the large number of video frames during
 training performs better than using just still images or video
 frames for testing on any of the test datasets
+
 ## What is better: deeper or wider datasets?
 >In section 3.2 we investigate the impact of using a deep
 dataset against using a wider dataset. For two datasets with
