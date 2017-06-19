@@ -5,5 +5,10 @@ Sometimes I read interesting papers, posts or code repositories.
 
 Inspired by: https://github.com/aleju/papers
 
+
+- 2015-06-19:
+    - Added `Inception (GoogLeNet) history, architecture and tricks`
 - 2015-05-26: 
     - Added `The Do's and Don'ts for CNN-based Face Verification`
+    
+ 
