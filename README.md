@@ -6,7 +6,7 @@ Sometimes I read interesting papers, posts or code repositories.
 Inspired by: https://github.com/aleju/papers
 
 - 2017-07-21: 
-    - Added `Resnet`
+    - Added `Deep Residual Learning for Image Recognition`
 - 2017-06-19:
     - Added `Inception (GoogLeNet) history, architecture and tricks`
 - 2017-05-26: 
