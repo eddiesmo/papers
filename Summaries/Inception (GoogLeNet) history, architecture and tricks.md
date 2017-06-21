@@ -217,3 +217,9 @@ In addition, gradient clipping [14] with threshold 2.0 was
 found to be useful to stabilize the training. Model evaluations
 are performed using a running average of the parameters
 computed over time.
+
+# Inception-v4, Inception-ResNet and
+the Impact of Residual Connections on Learning
+https://arxiv.org/pdf/1602.07261v2.pdf
+
+[Skimmed]
