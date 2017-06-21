@@ -14,6 +14,7 @@ Sumary:
 - Revolution of depth: GoogLeNet was 22 layers with 6.7 top-5 error, 
 Resnet is 152 layers with 3.57 top-5 error
 - Light on complexity: the 34 layer baseline is 18% of the FLOPs(multiply-adds) of VGG.
+    - Resnet 152 has lower time complexity than VGG-16/19
 - Extends well to detection and segmentation tasks
 - Just stacking more layers gives worse performance. Why? In theory:
     > A deeper model should not have
@@ -47,15 +48,10 @@ provide reasonable preconditioning.
     - All plain/residual nets are trained from scratch
     - All plain/residual nets use Batch Normalization
     - Standard hyper-parameters & augmentation
-- Resnet 152 has lower time complexity than VGG-16/19
 - The learned features are well transferable to other tasks
     - Works well with Faster RCNN
     - Works well with semantic instance segmentation
-
  
-# Questions
- - How did researchers "see" the weak gradients in vanilla deep nets? How did they recognize the problem?
-
 
 Also skimmed:
 - Deep Residual Networks with 1K Layers
