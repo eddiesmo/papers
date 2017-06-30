@@ -5,6 +5,7 @@ Sometimes I read interesting papers, posts or code repositories.
 
 Inspired by: https://github.com/aleju/papers
 
+- 2017-07-30: Added `Batch Normalization`
 - 2017-07-21: 
     - Added `Deep Residual Learning for Image Recognition`
 - 2017-06-19:
