@@ -1,5 +1,5 @@
 # About
-Sometimes I read interesting papers, posts or code repositories.
+Sometimes I read and then write about interesting papers, posts or code repositories.
 1. Reviews and summaries go into the summaries folder
 2. Quick thoughts and comments go into the journal folder.
 
