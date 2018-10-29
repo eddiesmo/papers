@@ -5,6 +5,7 @@ Sometimes I read interesting papers, posts or code repositories.
 
 Inspired by: https://github.com/aleju/papers
 
+- 2018-10-29: Adeed [`Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells`](https://docs.google.com/document/d/1EIfui9FxBJSo4nhI0pwwO3e-XNX_fzlNyKbw6YSQpV8/edit?usp=sharing)
 - 2017-07-30: Added `Batch Normalization`
 - 2017-07-21: 
     - Added `Deep Residual Learning for Image Recognition`
