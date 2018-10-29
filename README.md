@@ -1,6 +1,7 @@
 # About
 Sometimes I read and then write about interesting papers, posts or code repositories.
 1. Reviews and summaries go into the summaries folder
+Update: I sometimes put summaries in a google drive folder and post a link to them.
 2. Quick thoughts and comments go into the journal folder.
 
 Inspired by: https://github.com/aleju/papers
